@@ -1,8 +1,15 @@
 // src/components/Notebook.jsx
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import '../styles/Notebook.css';
+import { useNavigate } from 'react-router-dom'; 
 
 const Notebook = () => {
+  const navigate = useNavigate();
+
+    const handleHeartClick = () => {
+        navigate('/proposal');
+    };
+
   useEffect(() => {
     let highestZ = 1;
 
@@ -90,7 +97,9 @@ const Notebook = () => {
 
   return (
     <div>
-      <div className="paper heart"></div>
+      <div className="paper heart" onClick={handleHeartClick}>
+        <p className="heart-message">Ready for more?</p>
+      </div>
       <div className="paper image">
         <p>I mean...</p>
         <p>Just look at us! 😍</p>
