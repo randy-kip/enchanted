@@ -3,16 +3,18 @@ import './App.css';
 import './styles/global.css';
 import './styles/Notebook.css';
 
-import { Routes, Route } from 'react-router-dom';  // Import Routes and Route
+import { Routes, Route } from 'react-router-dom';
+import InvitePage from './components/InvitePage';
+import SuccessPage from './components/SuccessPage';
 import Notebook from './components/Notebook';
-// import ProposalPage from './components/ProposalPage';  // Ensure this component exists
 
 function App() {
     return (
         <div className="App">
             <Routes>
                 <Route path="/" element={<Notebook />} />
-                {/* <Route path="/proposal" element={<ProposalPage />} /> */}
+                <Route path="/invite" element={<InvitePage />} />
+                <Route path="/success" element={<SuccessPage />} />
             </Routes>
         </div>
     );

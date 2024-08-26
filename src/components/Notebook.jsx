@@ -7,7 +7,7 @@ const Notebook = () => {
   const navigate = useNavigate();
 
     const handleHeartClick = () => {
-        navigate('/proposal');
+        navigate('/invite');
     };
 
   useEffect(() => {
