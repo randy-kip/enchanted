@@ -92,25 +92,25 @@ const Notebook = () => {
     <div>
       <div className="paper heart"></div>
       <div className="paper image">
-        <p>and I fallen in</p>
-        <p>Love with You 😍</p>
-        <img src="images/1.jpeg" alt="1" />
+        <p>I mean...</p>
+        <p>Just look at us! 😍</p>
+        <img src="src\assets\images\us-close-up.jpg" alt="1" />
       </div>
       <div className="paper image">
-        <img src="images/2.jpeg" alt="2" />
+        <img src="src\assets\images\cake.jpg" alt="2" />
       </div>
       <div className="paper image">
-        <p>How can be</p>
-        <p>someone so cute ❤️</p>
-        <img src="images/3.jpg" alt="3" />
+        <p>How can one person be</p>
+        <p>so incredibly cute ❤️</p>
+        <img src="src\assets\images\anim.gif" alt="3" />
       </div>
       <div className="paper red">
-        <p className="p1">and My Favorite</p>
-        <p className="p2">Person 😍</p>
+        <p className="p1">and my absolute</p>
+        <p className="p2">favorite Person 😍</p>
       </div>
       <div className="paper">
-        <p className="p1">You are Cute</p>
-        <p className="p1">Amazing <span style={{ color: 'red' }}>❤️</span></p>
+        <p className="p1">You are everything</p>
+        <p className="p1">I have ever wanted <span style={{ color: 'red' }}>❤️</span></p>
       </div>
       <div className="paper">
         <p className="p1">Drag the papers to move!</p>

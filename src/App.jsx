@@ -5,6 +5,7 @@ import './App.css'
 // import React from 'react';
 import Notebook from './components/Notebook';
 import './styles/global.css';
+import './styles/Notebook.css';
 
 function App() {
     return (
