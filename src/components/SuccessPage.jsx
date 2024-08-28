@@ -1,8 +1,21 @@
 // src/components/SuccessPage.jsx
-// import React from 'react';
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/SuccessPage.css';
 
 const SuccessPage = () => {
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        // Redirect to SpotlightPage after 5 seconds (5000 milliseconds)
+        const timeoutId = setTimeout(() => {
+            navigate('/spotlight'); // Redirects to SpotlightPage
+        }, 5000);
+
+        // Cleanup the timeout if the component is unmounted before the timeout completes
+        return () => clearTimeout(timeoutId);
+    }, [navigate]);
+
     return (
         <div className="container">
             <div>

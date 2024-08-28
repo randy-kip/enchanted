@@ -1,4 +1,4 @@
-/* src/components/Notebook.css */
+/* src/styles/Notebook.css */
 @import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
 
 /* Move the content of your style.css file here */
@@ -13,7 +13,7 @@
     background-position: center center;
 } */
 
-body {
+/* body {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -23,7 +23,20 @@ body {
   background-position: center center;
   margin: 0;
   overflow: hidden;
+} */
+/* src/styles/Notebook.css */
+body {
+  background-image: url('https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .paper {
   background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
   background-size: 500px;
